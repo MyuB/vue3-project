@@ -11,7 +11,7 @@
 
 .logo {
   font-family: 'Black Han Sans', sans-serif;
-  font-size: 25px;
+  font-size: 33px;
   color: $red;
   text-decoration: none;
   &:hover {
