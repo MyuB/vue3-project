@@ -1,5 +1,8 @@
 # Vue3 템플릿 with Webpack
 
+# Final Result
+https://optimistic-feynman-6ae810.netlify.app/#/
+
 ## Versions
 
 - [Default](https://github.com/ParkYoungWoong/vue3-webpack-template/tree/master)<br>
@@ -76,27 +79,3 @@ __babel-eslint__: ES6 이상의 코드(Babel)를 분석 __(+ESLint)__<br>
 __vuex__: 중앙 집중식 저장소 __(+Vuex)__<br>
 __vue-router__: 라우터 __(+VueRouter)__<br>
 
-## 주의사항!
-
-- `npm i vue@next`로 설치(3버전)
-- `npm i vue-loader@next`로 설치(3버전)
-- `npm i -D webpack-dev-server@next`로 설치(webpack-cli 버전(@4^)과 일치)!<br>
-- `package.json` 옵션으로 `browserslist` 추가!<br>
-- `.postcssrc.js` 생성(PostCSS 구성 옵션)!<br>
-- `.babelrc.js` 생성(Babel 구성 옵션)!<br>
-- `.eslintrc.js` 생성(ESLint 구성 옵션)! __(+ESLint)__<br>
-
-## ESLint Auto fix on save for VSCode
-
-- 모든 명령 표시(Windows: `Ctrl`+`Shift`+`P` / macOS: `Cmd`+`Shift`+`P`)
-- 모든 명령 표시에서 `settings` 검색
-- `Preferences: Open Settings (JSON)` 선택
-- 오픈된 `settings.json`파일에서 아래 코드 추가 및 저장
-
-```json
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-}
-```
